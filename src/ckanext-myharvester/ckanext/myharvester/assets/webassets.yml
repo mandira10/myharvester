@@ -1,0 +1,14 @@
+# myharvester-js:
+#   filter: rjsmin
+#   output: ckanext-myharvester/%(version)s-myharvester.js
+#   contents:
+#     - js/myharvester.js
+#   extra:
+#     preload:
+#       - base/main
+
+# myharvester-css:
+#   filter: cssrewrite
+#   output: ckanext-myharvester/%(version)s-myharvester.css
+#   contents:
+#     - css/myharvester.css
